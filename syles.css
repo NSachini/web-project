@@ -27,30 +27,29 @@ body{
     float: right;
     background-color: #dfdfdf;
     padding: 120px;
-    box-shadow: 20px 20px 50px rgb(0,0,0,0.5);
-    background: rgb(255,255,255,0.1);
-    border-top: 1px solid rgb(255,255,255,0.1);
-    border-left: 1px solid rgb(255,255,255,0.1);
-    backdrop-filter: blur(6px);
-}
-    
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.5);
 
+   
+}
+
+    
 .inner-container h1{
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 800;
-    color: #dfdfdf;
+    color: #1d1d1d;
 }
 
 
 .text{
     font-size: 14px;
-    color: #fdfdfd;
+    color: #1d1d1d;
     line-height: 20px;
     text-align: justify;
     margin-bottom: 10px;
 
 }
+
 
 
 
