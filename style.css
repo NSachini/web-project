@@ -5,13 +5,23 @@
 
 }
 
-
-.about-us{
-    height: 50vh;
+/*about*/
+.about-home{
+    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)),url("4.jpg");
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(4.jpg);
-    background-position: center;
+    height: 60vh;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding-left: 40px;
+}
+
+.about-home h1{
     color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
 }
