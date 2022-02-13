@@ -31,3 +31,55 @@
     align-items: center;
     padding: 8vw 8vw 2vw 8vw;
 }
+
+.about-contain .about-img{
+    width: 60%;
+    padding: 60px;
+
+}
+
+.about-contain .about-img img{
+    width: 100%;
+
+}
+
+.about-contain .about-text{
+    width: 40%;
+    padding: 60px;
+
+}
+
+.about-contain .about-text h2{
+    color: #292828;
+    padding-bottom: 15px;
+
+}
+
+.about-contain .about-text p{
+    color: #545454;
+    font-weight: 300;
+    
+}
+
+.about-contain .about-text .about-fe{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.about-contain .about-text .about-fe img{
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+.about-contain .about-text .about-fe .fe-text{
+    width: 90%;
+    
+}
+
+.about-contain .about-text .about-fe .fe-text{
+
+}
