@@ -93,15 +93,6 @@ body{
     transform: skewX(45deg) translateX(200%);
 }
 
-.inner-container .btn:nth-child(1):before,
-.inner-container .btn:nth-child(1)::after{
-    background: #2bd2ff;
-    box-shadow: 0 0 5px #2bd2ff,
-    0 0 15px #2bd2ff,
-    0 0 30px #2bd2ff,
-    0 0 60px #2bd2ff;
-
-}
 
 .text{
     font-size: 14px;
