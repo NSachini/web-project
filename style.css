@@ -6,8 +6,8 @@
 }
 
 /*about*/
-.about-home{
-    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)),url("4.jpg");
+#about-home{
+    background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("4.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -20,66 +20,113 @@
     padding-left: 40px;
 }
 
-.about-home h1{
+#about-home h1{
     color: #fff;
     font-size: 2.2rem;
     letter-spacing: 1px;
 }
 
-.about-container{
+#about-container{
     display: flex;
     align-items: center;
-    padding: 8vw 8vw 2vw 8vw;
-}
-
-.about-contain .about-img{
-    width: 60%;
-    padding: 60px;
-
-}
-
-.about-contain .about-img img{
     width: 100%;
+    padding: 8vw 8vw 2vw 8vw;
+    
+}
+
+#about-container .about-img{
+    width: 50%;
+    padding-right: 60px;
+    
+}
+
+#about-container .about-img img{
+    width: 100%;
+    
+}
+
+#about-container .about-text{
+    width: 30%;
+    
 
 }
 
-.about-contain .about-text{
-    width: 40%;
-    padding: 60px;
-
-}
-
-.about-contain .about-text h2{
+#about-container .about-text h2{
     color: #292828;
     padding-bottom: 15px;
 
 }
 
-.about-contain .about-text p{
+#about-container .about-text p{
     color: #545454;
     font-weight: 300;
     
 }
 
-.about-contain .about-text .about-fe{
+#about-container .about-text .about-fe{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 30px;
 
 }
 
-.about-contain .about-text .about-fe img{
+#about-container .about-text .about-fe img{
     width: 50px;
     background-size: cover;
     background-position: center;
-    margin: 20px;
+    margin-right: 20px;
 }
 
-.about-contain .about-text .about-fe .fe-text{
+#about-container .about-text .about-fe .fe-text{
     width: 90%;
     
 }
 
-.about-contain .about-text .about-fe .fe-text{
+#about-container .about-text .about-fe .fe-text h5{
+    font-size: 16px;
+    color: #292828;
 
 }
+
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .fe-box{
+    background-color: #fff;
+    text-align: start;
+    
+}
+
+#features .fe-box i{
+    font-size: 2.3rem;
+    color: rgba(44, 44, 80);
+
+}
+
+#features .fe-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(46, 46, 59);
+    padding: 13px 0 7px 0;
+
+}
+
+#features .fe-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(70, 70, 87);
+
+}
+
+
+
