@@ -6,6 +6,22 @@
 
 }
 
+/*navbar*/
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: 15;
+}
+
+
+
+
+
 /*about*/
 #about-home{
     background-image: linear-gradient(rgba(5,9,54,0.3),rgba(5,4,46,0.7)), url("4.jpg");
